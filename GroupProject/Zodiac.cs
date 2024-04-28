@@ -11,6 +11,7 @@ namespace GroupProject
 {
     public enum EnumZodiacs
     {
+        None = 0,
         Козерог,
         Водолей,
         Рыбы,
@@ -90,7 +91,7 @@ namespace GroupProject
             else { Console.WriteLine("Введены недопустимые данные, попробуйте снова"); }
 
             //создаем переменную типа EnumZodiacs куда запишем результат определения
-            EnumZodiacs yourZodiac = EnumZodiacs.Близнецы;
+            EnumZodiacs yourZodiac = EnumZodiacs.None;
 
             //Определяем знак зодиака по месяцу и дате месяца
             switch(dateOfBirth.Month)
