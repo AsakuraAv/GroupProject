@@ -77,8 +77,8 @@ namespace GroupProject
             }
 
             // Проверяем лежат ли введеные данные в области допустимых значений
-            if ( (dateOfBirth.Month > 0 & dateOfBirth.Month < 13) 
-                && (dateOfBirth.Day > 0 & dateOfBirth.Day < 32))
+            if ( (dateOfBirth.Month > 0 && dateOfBirth.Month < 13) 
+                && (dateOfBirth.Day > 0 && dateOfBirth.Day < 32))
             {
                 Console.WriteLine("\n\nПриступаем к анализу через 3 секунды");
 
@@ -86,7 +86,7 @@ namespace GroupProject
                 {
                     Console.WriteLine(i);
                     Thread.Sleep(1000); // Задержка на 1 секунду
-                };
+                }
             }
             else { Console.WriteLine("Введены недопустимые данные, попробуйте снова"); }
 
