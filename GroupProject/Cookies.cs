@@ -23,7 +23,6 @@ namespace GroupProject
             }
             else
             {
-
                 _score = ((_flour / 1000) * 15) / 0.25;
                 Console.WriteLine($"{Math.Round(_score)} pieces");
             }
