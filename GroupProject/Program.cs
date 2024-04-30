@@ -12,6 +12,10 @@
             multip.mulipTable();
             Console.WriteLine("From Svitlana: Hi guys. Pleased to work with you."); //from Svitlana Leibak
 
+
+            //from Gostev Nikita
+            ZodiacIdentifi.ZodiacIdentifier();
+
             StarPicture();
             Cookies cookies = new Cookies();
             cookies.ScoreCookies(400);
